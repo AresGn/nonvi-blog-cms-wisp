@@ -11,12 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: urlJoin(config.baseUrl, "about"),
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
       url: urlJoin(config.baseUrl, "blog"),
       lastModified: new Date(),
       changeFrequency: "daily",

@@ -20,7 +20,6 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   { name: "Blog", href: "/" },
-  { name: "À propos", href: "/about" },
 ];
 
 export const Navigation: FunctionComponent = () => {
